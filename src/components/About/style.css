@@ -1,0 +1,68 @@
+:root {
+    --cor_principal: #1b1a1a;
+    --cor_secundaria: #292929;
+    --cor_terciaria: #e99231;
+    --cor_terciaria_forte: #fa8400;
+    --cor_quadriaria: #14e52c;
+}
+
+.text-terciaria {
+    color: var(--cor_terciaria);
+}
+
+.text-terciaria-forte {
+    color: var(--cor_terciaria_forte);
+}
+
+.secao_wrapper {
+    background-color: var(--cor_principal);
+}
+
+.card_resumo {
+    width: 277px;
+    height: 308px;
+}
+
+.card_resumo:hover {
+    transform: scale(1.02) !important;
+    transition: all 0.2s ease-out;
+}
+
+.card_resumo.dark {
+    background-color: var(--cor_secundaria);
+}
+
+.card_resumo.gold {
+    background-color: #e99231;
+}
+
+.player-video-sobre {
+    position: relative;
+    float: float;
+}
+
+.player-video-sobre video {
+    width: 100%;
+    height: 100%;
+}
+
+.player-video-sobre .video-preloader {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    top: 35%;
+    cursor: pointer;
+    background: url("./assets/Play4.png") center center no-repeat;
+    background-size: auto 100%;
+}
+
+.video-redes {
+    display: block;
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    left: 0;
+    top: 55%;
+}

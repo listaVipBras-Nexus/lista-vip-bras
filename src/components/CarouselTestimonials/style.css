@@ -1,0 +1,7 @@
+.swiper-wrapper{
+    align-items: center;
+}
+
+.transition-items {
+    transition: all 0.5s ease-in-out;
+}

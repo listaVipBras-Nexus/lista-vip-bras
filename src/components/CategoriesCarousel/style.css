@@ -1,0 +1,13 @@
+.carousel-categorie .swiper-button-next,
+.carousel-categorie .swiper-button-prev {
+    color: #fa8400 !important;
+    font-weight: bold;
+}
+
+.carousel-categorie .swiper-button-next {
+    right: 0px !important;
+}
+
+.carousel-categorie .swiper-button-prev {
+    left: 0px !important;
+}
