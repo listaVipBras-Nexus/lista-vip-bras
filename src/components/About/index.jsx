@@ -4,6 +4,7 @@ import { LuClipboardList } from "react-icons/lu";
 import { FaInstagram, FaWhatsapp, FaTiktok } from "react-icons/fa";
 import Video1 from "./assets/video_1.mp4";
 import { motion } from "framer-motion";
+import ButtonBuy from "../ButtonBuy";
 import "./style.css";
 
 const About = () => {
@@ -96,7 +97,7 @@ const About = () => {
                 </motion.div>
             </div>
 
-            <div className="w-full h-2/6 flex flex-col gap-8">
+            <div className="w-full h-2/6 flex flex-col items-center justify-center gap-8">
                 <h3 className="text-xl lg:text-4xl font-bold text-terciaria text-center">
                     Quem é <span className="text-nbOrangePrimary">Bruno</span>{" "}
                     Novaes?
@@ -174,6 +175,7 @@ const About = () => {
                         </motion.p>
                     </div>
                 </div>
+                <ButtonBuy titulo="Comprar agora" />
             </div>
         </section>
     );

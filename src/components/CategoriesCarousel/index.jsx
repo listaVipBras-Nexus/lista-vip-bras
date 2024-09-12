@@ -43,22 +43,22 @@ const CategoriesCarousel = () => {
         {
             roupa: sportLife,
             moda: "Moda Sport Life",
-            valor: "A partir de R$80.00",
+            valor: "A partir de R$20.00",
         },
         {
             roupa: Tenis,
             moda: "Tênis",
-            valor: "A partir de R$40.00",
+            valor: "A partir de R$30.00",
         },
         {
             roupa: Iphone,
             moda: "Iphone",
-            valor: "A partir de R$350.00",
+            valor: "A partir de R$800.00",
         },
         {
             roupa: modaPlus,
             moda: "Moda Plus Size",
-            valor: "A partir de R$80.00",
+            valor: "A partir de R$15.00",
         },
         {
             roupa: modaInfantil,
@@ -78,13 +78,13 @@ const CategoriesCarousel = () => {
         {
             roupa: modaBlogueira,
             moda: "Moda Blogueira",
-            valor: "A partir de R$20.00",
+            valor: "A partir de R$12.99",
         },
 
         {
             roupa: modaFeminina,
             moda: "Moda Feminina",
-            valor: "A partir de R$20.00",
+            valor: "A partir de R$8.99",
         },
     ];
 

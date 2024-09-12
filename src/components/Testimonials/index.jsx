@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CarouselTestimonials from "../../components/CarouselTestimonials";
 import TestemonialTemplate from "../../components/TestimonialTemplate";
+import ButtonBuy from "../ButtonBuy";
 
 const Testimonials = () => {
     const [screenView, setScreenView] = useState(false);
@@ -26,9 +27,10 @@ const Testimonials = () => {
     return (
         <section
             id="depoimentos"
-            className="h-screen bg-[url('./assets/home-bg.png')] bg-no-repeat bg-left bg-cover bg-nbBlackPrimary flex justify-center items-center "
+            className="h-screen bg-[url('./assets/home-bg.png')] bg-no-repeat bg-left bg-cover bg-nbBlackPrimary flex flex-col gap-5 justify-center items-center "
         >
             {screenView ? <TestemonialTemplate /> : <CarouselTestimonials />}
+            <ButtonBuy titulo="Comprar agora" />
         </section>
     );
 };

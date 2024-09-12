@@ -41,7 +41,7 @@ export default function Home() {
             </motion.div>
             <div className=" flex items-center flex-col justify-center gap-5 s880:w-3/4">
                 <h1 className="text-white font-semibold text-2xl w-[90%] s380:max-w-nb-352 s480:w-[70%] s580:w-[60%] s680:w-[50%] s680:max-w-2xl s780:text-tamanhoTitulo s780:w-[60%] s880:w-[70%] s980:w-[60%]  s1080:w-[56%] s1180:w-[50%] s1280:w-[46%] s1280:text-3xl s1380:w-2/5 s1480:w-96">
-                    OBTENHA A MELHOR LISTA DE CONTATOS DO BRÁS E{" "}
+                    OBTENHA A MELHOR LISTA SECRETA DO BRÁS E{" "}
                     <span className="text-nbOrangePrimary">
                         IMPULSIONE SEU NEGÓCIO.
                     </span>{" "}

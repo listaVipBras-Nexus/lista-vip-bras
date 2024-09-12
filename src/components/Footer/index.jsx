@@ -42,7 +42,12 @@ const Footer = () => {
                 <nav>
                     <ul className="flex gap-7 s580:gap-9">
                         <li className="cursor-pointer hover:scale-105 transition-all duration-200 ease-out">
-                            <img src={whatsApp} alt="whatsApp" />
+                            <a
+                                href="https://api.whatsapp.com/message/QFSXNHUFGNSCB1?autoload=1&app_absent=0"
+                                target="_blank"
+                            >
+                                <img src={whatsApp} alt="whatsApp" />
+                            </a>
                         </li>
                         <li className="cursor-pointer hover:scale-105 transition-all duration-200 ease-out">
                             <img src={telegram} alt="telegram" />
